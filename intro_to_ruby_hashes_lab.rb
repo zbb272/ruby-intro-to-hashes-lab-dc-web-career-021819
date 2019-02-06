@@ -13,8 +13,13 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+	monopoly = {}
+	monopoly[:railroads] = {}
+	monopoly
+	
+	monopoly[:railroads][:pieces] = 4
+	monopoly[:railroads][:names] = {}
+	monopoly[:railroads][:rent_in_dollars] = {}
 end
 
 # describe "adding key-value pairs to the second level of the monopoly hash that we started building in the #monopoly method" do
