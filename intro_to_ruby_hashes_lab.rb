@@ -63,8 +63,9 @@ def monopoly_with_fourth_tier
 	monopoly[:railroads][:names][:b_and_o_railroad] = {}
 	monopoly[:railroads][:names][:shortline] = {}
 	
+	
+	
 	monopoly
-
 end
 
 # describe "fourth level of monopoly hash" do
